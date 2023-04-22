@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "fastify": "^4.15.0",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "tsx": "^3.12.6"
+  }
+}
