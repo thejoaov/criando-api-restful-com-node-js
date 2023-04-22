@@ -1,13 +1,16 @@
 {
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint --ext .ts src --fix"
   },
   "dependencies": {
     "fastify": "^4.15.0",
     "typescript": "^5.0.4"
   },
   "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
     "@types/node": "^18.15.13",
+    "eslint": "^8.39.0",
     "tsx": "^3.12.6"
   }
 }
